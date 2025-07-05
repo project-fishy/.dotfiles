@@ -1,0 +1,88 @@
+{
+    "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": false,
+    "window.enableMenuBarMnemonics": false,
+    "window.customMenuBarAltFocus": false,
+    "terminal.integrated.fontFamily": "'Monaspace Radon'",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontLigatures": true,
+    "debug.onTaskErrors": "abort",
+    "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "auto",
+    "workbench.activityBar.location": "top",
+    "workbench.navigationControl.enabled": false,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "editor.fontFamily": "'Monaspace Argon'",
+    "git.autofetch": true,
+    "editor.codeLensFontFamily": "'Monaspace Neon'",
+    "editor.formatOnSave": true,
+    "diffEditor.codeLens": true,
+    "editor.inlayHints.fontFamily": "'Monaspace Xenon'",
+    "editor.inlineSuggest.fontFamily": "'Monaspace Krypton'",
+    "debug.console.fontFamily": "'Monaspace Radon'",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Catppuccin Frappé",
+    "window.restoreWindows": "none",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'",
+    "doki.statusbar.name": "fih",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.color": "#ff7043",
+    "workbench.iconTheme": "ayu",
+    "csharp.debug.sourceFileMap": {
+        "EmoteMod/": "/home/desant/.local/share/Steam/steamapps/common/Celeste/Mods/EmoteMod/"
+    },
+    "catppuccin.customUIColors": {},
+    "catppuccin.colorOverrides": {
+        "frappe": {
+            "rosewater": "#dd6470", // red 4
+            "flamingo": "#dd6470", // red 3
+            "pink": "#db939a", // pink 1
+            "mauve": "#db939a", // pink 2 
+            "red": "#dd6470", // red 1
+            "maroon": "#dd6470", // red 2
+            "peach": "#BD6F3E", // red-ish orange
+            "yellow": "#dbb26c", // yellow
+            "green": "#97ad6e", // greer
+            "teal": "#7bad6e", // teal 1
+            "sky": "#7bad6e", // teal 2
+            "sapphire": "#7bad6e", // teal 3 
+            // done
+            "blue": "#7aa5b1", // blue 1
+            "lavender": "#7aa5b1", // blue 2
+            "text": "#c5bf99", // most of the text (files, menus)
+            "subtext1": "#BDAE8B", // ???
+            "subtext0": "#A69372", // ??
+            "overlay2": "#575f62", // comments, ""
+            "overlay1": "#464f52", // line number
+            "overlay0": "#575f62", // inactive file title
+            "surface2": "#464f52", // active GL, pane borders
+            "surface1": "#1c2326", // guide lines
+            "surface0": "#283236", // selected file, popups
+            "base": "#13181a", // editor bg
+            "mantle": "#192022", // sidebars
+            "crust": "#1c2326" // window border
+        }
+    },
+    "workbench.productIconTheme": "fluent-icons",
+    "catppuccin.accentColor": "lavender",
+    "catppuccin-icons.monochrome": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "codesnap.backgroundColor": "#1D2021",
+    "codesnap.realLineNumbers": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "editor.fontVariations": false,
+}
