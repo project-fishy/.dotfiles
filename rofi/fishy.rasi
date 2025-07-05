@@ -1,0 +1,79 @@
+configuration {
+  modi: "window,run,drun";
+  font: "Monaspace Argon 12";
+  border: 2px;
+  border-radius: 13px;
+  padding: 10px;
+}
+
+* {
+  
+}
+
+@import "colors.rasi"
+
+window {
+  width: 500px;
+  background-color: @background;
+  border: 2px solid;
+  border-color: @selected;
+  border-radius: 12px;
+}
+
+mainbox {
+  padding: 10px;
+  background-color: @background;
+  border-radius: inherit;
+}
+
+inputbar {
+  background-color: transparent;
+  padding: 6px;
+  spacing: 5px;
+  children: [prompt, entry];
+}
+
+prompt {
+  text: ">";
+  padding: 0px 6px;
+  color: @selected;
+}
+
+entry {
+  expand: true;
+  padding: 6px;
+  background-color: @background;
+  color: @foreground;
+  placeholder: "Type to search…";
+}
+
+listview {
+  lines: 4;
+  columns: 1;
+  spacing: 4px;
+  fixed-height: false;
+  scrollbar: false;
+}
+
+element {
+  padding: 6px;
+  border-radius: 8px;
+  background-color: transparent;
+  text-color: @foreground;
+  icon-size: 1.2em;
+}
+
+element selected {
+  background-color: @selected;
+  text-color: #1e1e2e;
+}
+
+element-icon {
+  size: 24px;
+  padding: 0px 8px 0px 0px;
+}
+
+element-text {
+  text-color: inherit;
+}
+
