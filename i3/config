@@ -118,8 +118,9 @@ bindsym $mod+Shift+Return exec kitty --class=floatingkitty
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
+# rofi
 bindsym $mod+d exec rofi -show drun -theme fishy
+bindsym $mod+period exec rofi -modi emoji -show emoji -theme fishy
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -156,6 +157,17 @@ font pango:Monaspace Argon 6
 ###########################
 # WORKSPACES
 ###########################
+
+set $ws1        "main"
+set $ws2        "telegram"
+set $ws3        "discord"
+set $ws4        "spotik"
+set $ws5        "steam"
+set $ws6        "obs"
+set $ws7        "code"
+set $ws8        "???"
+set $ws9        "???"
+set $ws10       "game"
 
 # Switch to workspace
 bindsym $mod+1 workspace number 1
