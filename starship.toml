@@ -48,7 +48,7 @@ truncation_symbol = ""
 [git_branch]
 # format = '\[[$symbol$branch(:$remote_branch)]($style)\]'
 # format = ' [git:\(](bold blue)[$branch]($style)[\)](bold blue)'
-format = ' [\[$symbol](bold blue)[$branch](bold blue)[\]](bold blue)'
+format = '[\(](bold blue)[$branch](bold cyan)[\)](bold blue)'
 symbol = " "
 style = "bold red"
 
@@ -73,12 +73,12 @@ format = '\[[$duration]($style)\]'
 min_time = 1
 
 [character]
-error_symbol = " [󰛣 ](bold red)"
+error_symbol = " [></>](bold red)"
 # error_symbol = " [✗](bold yellow)"
 # success_symbol = " [  ](bold green)"
 # success_symbol = " [ ](bold green)"
 # success_symbol = " [󱎟 ](bold green)"
-success_symbol = " [󰈺 ](bold blue)"
+success_symbol = " [><>](bold blue)"
 # success_symbol = " [❯](bold green)"
 
 
