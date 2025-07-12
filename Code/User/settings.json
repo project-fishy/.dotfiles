@@ -2,7 +2,7 @@
     "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": false,
     "window.enableMenuBarMnemonics": false,
     "window.customMenuBarAltFocus": false,
-    "terminal.integrated.fontFamily": "'Monaspace Radon'",
+    "terminal.integrated.fontFamily": "'Iosevka Term'",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontLigatures": true,
     "debug.onTaskErrors": "abort",
@@ -26,7 +26,6 @@
     "doki.statusbar.name": "fih",
     "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.folders.color": "#ff7043",
-    "workbench.iconTheme": "ayu",
     "csharp.debug.sourceFileMap": {
         "EmoteMod/": "/home/desant/.local/share/Steam/steamapps/common/Celeste/Mods/EmoteMod/"
     },
@@ -62,6 +61,27 @@
             "crust": "#1c2326" // window border
         }
     },
+    "workbench.colorCustomizations": {
+        "terminal.background": "#1c2326",
+        "terminal.foreground": "#c5bf99",
+        "terminalCursor.foreground": "#c5bf99",
+        "terminal.ansiBlack": "#1c2326",
+        "terminal.ansiRed": "#dd6470",
+        "terminal.ansiGreen": "#97ad6e",
+        "terminal.ansiYellow": "#dbb26c",
+        "terminal.ansiBlue": "#7aa5b1",
+        "terminal.ansiMagenta": "#db939a",
+        "terminal.ansiCyan": "#afc9d0",
+        "terminal.ansiWhite": "#c5bf99",
+        "terminal.ansiBrightBlack": "#1c2326",
+        "terminal.ansiBrightRed": "#dd6470",
+        "terminal.ansiBrightGreen": "#97ad6e",
+        "terminal.ansiBrightYellow": "#dbb26c",
+        "terminal.ansiBrightBlue": "#7aa5b1",
+        "terminal.ansiBrightMagenta": "#db939a",
+        "terminal.ansiBrightCyan": "#afc9d0",
+        "terminal.ansiBrightWhite": "#c5bf99"
+    },
     "workbench.productIconTheme": "fluent-icons",
     "catppuccin.accentColor": "lavender",
     "catppuccin-icons.monochrome": true,
@@ -85,4 +105,7 @@
     "git.confirmSync": false,
     "explorer.confirmDelete": false,
     "editor.fontVariations": false,
+    "workbench.iconTheme": "ayu",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.localEchoStyle": "dim",
 }

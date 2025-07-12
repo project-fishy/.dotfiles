@@ -1,61 +1,66 @@
 configuration {
   modi: "window,run,drun";
-  font: "Monaspace Argon 12";
+  font: "Iosevka 12";
   border: 2px;
   border-radius: 13px;
   padding: 10px;
+  show-icons: true;
 }
 
 * {
-  
 }
 
 @import "colors.rasi"
 
-window {
+window { // ???
   width: 500px;
-  background-color: @background;
+  background-color: @background-br;
   border: 2px solid;
-  border-color: @selected;
-  border-radius: 12px;
+  border-color: @borders;
+  border-radius: @borders-outer;
 }
 
-mainbox {
+mainbox { // main bg
   padding: 10px;
-  background-color: @background;
+  background-color: inherit;
   border-radius: inherit;
 }
 
-inputbar {
-  background-color: transparent;
+inputbar { // container for search and drun
+  background-color: @background;
+  border-radius: 10px;
   padding: 6px;
   spacing: 5px;
   children: [prompt, entry];
 }
 
-prompt {
+prompt { // thing that says drun
   text: ">";
-  padding: 0px 6px;
-  color: @selected;
+  padding: 6px;
+  text-color: @foreground;
+  background-color: transparent;
 }
 
-entry {
+entry { // search bar
   expand: true;
   padding: 6px;
-  background-color: @background;
+  background-color: transparent;
   color: @foreground;
-  placeholder: "Type to search…";
+  placeholder: "Search";
+  placeholder-color: @comment;
 }
 
-listview {
+listview { // list container
   lines: 4;
   columns: 1;
   spacing: 4px;
   fixed-height: false;
   scrollbar: false;
+  background-color: @background;
+  border-radius: @borders-inner;
 }
 
-element {
+element { // option container (outline)
   padding: 6px;
   border-radius: 8px;
   background-color: transparent;
@@ -65,12 +70,17 @@ element {
 
 element selected {
   background-color: @selected;
-  text-color: #1e1e2e;
+  text-color: @foreground-blue;
+}
+
+element-text {
+  background-color: transparent;
 }
 
 element-icon {
   size: 24px;
   padding: 0px 8px 0px 0px;
+  background-color: transparent;
 }
 
 element-text {

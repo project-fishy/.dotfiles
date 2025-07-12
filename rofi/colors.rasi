@@ -1,36 +1,15 @@
 * {
-  foreground:           rgba(196, 203, 212, 100%);
-  selected-foreground:  rgba(0, 0, 0, 100%);
+  foreground:           #c5bf99;
+  foreground-blue:      #afc9d0;
   
-  background:           #202b2ca1;
-  background-solid:     #283236;
-  
-  selected: #a0aaaa;
-  selected-background: #19373a;
-  selected-background-alt: #4d86d3;
-  selected-background-gradient: linear-gradient(#19373a, #343c28);
+  background:           #13181a;
+  background-br:        #192022;
 
-  separatorcolor: #a0aaad;
+  selected:             #283236;
+  comment:              #575f62;
+  borders:              #7aa5b1;
 
-  /*
-bg
-  #202b2c
-  #283236
-red
-  #6e4d59
-  #81646f
-green
-  #b4bcbc
-  #a0aaad
-???
-  #19373a
-  #343c28
+  borders-outer: 13px;
+  borders-inner: 8px;
 
-  
-  */
-    
-  unselected-background:  #202b2c;
-  
-  red: rgba(220, 50, 47, 100%);
-  blue: rgba(38, 139, 210, 100%);
 }
