@@ -73,12 +73,12 @@ format = '\[[$duration]($style)\]'
 min_time = 1
 
 [character]
-error_symbol = " [></>](bold red)"
+error_symbol = " [󱏳 ](bold red)"
 # error_symbol = " [✗](bold yellow)"
 # success_symbol = " [  ](bold green)"
 # success_symbol = " [ ](bold green)"
 # success_symbol = " [󱎟 ](bold green)"
-success_symbol = " [><>](bold blue)"
+success_symbol = " [󰈺 ](bold blue)"
 # success_symbol = " [❯](bold green)"
 
 
